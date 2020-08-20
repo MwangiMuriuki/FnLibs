@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#134dab</color>
+    <color name="colorPrimaryDark">#1d325a</color>
+    <color name="colorAccent">#F00C62</color>
+    <color name="lightBlue">#3299fe</color>
+    <color name="lighterBlue">#d0ddf4</color>
+    <color name="lightestBlue">#ECF1FA</color>
+    <color name="lighterGreen">#cbefda</color>
+    <color name="lighterYellow">#fff8e9</color>
+    <color name="lightYellow">#f4ce72</color>
+    <color name="lighteryellow">#F3EDA0</color>
+    <color name="textColorPrimary">#3e3e3e</color>
+    <color name="textColorSecondary">#b0b6ca</color>
+    <color name="lightGreen">#50CA83</color>
+    <color name="darkGreen">#49b575</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="darkerWhite">#f8f8f8</color>
+    <color name="layoutBackground">#e4eef2</color>
+    <color name="layoutBackground2">#f8f8f8</color>
+    <color name="editTextBG">#e2ebfb</color>
+    <color name="cardBorderColor">#c0d4f4</color>
+    <color name="otherBorderColor">#e2ebfb</color>
+    <color name="tab_background_selected">#ebf5ff</color>
+    <color name="tab_background_unselected">#ffffff</color>
+    <color name="grey_color">#c4c4c4</color>
+    <color name="grey_color2">#B8B8B8</color>
+    <color name="grey_color3">#ACACAC</color>
+    <color name="red_toast">#D50000</color>
+    <color name="lightRed">#FC5C65</color>
+
+</resources>

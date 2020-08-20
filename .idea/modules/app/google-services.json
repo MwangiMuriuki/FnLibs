@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "181254013183",
+    "firebase_url": "https://fnlibs-5ba98.firebaseio.com",
+    "project_id": "fnlibs-5ba98",
+    "storage_bucket": "fnlibs-5ba98.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181254013183:android:3cde75f5aad7a0b65e0cca",
+        "android_client_info": {
+          "package_name": "com.dev.fnlibs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181254013183-pghv340n3km2u9nas9l6s6fi7d967b58.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dev.fnlibs",
+            "certificate_hash": "a5a471271f546b3ebe45eb9396dd852aa7bc18fc"
+          }
+        },
+        {
+          "client_id": "181254013183-lmjjp8r54t0hb0610fojhrkvdorjhr51.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjqrQO9E3DwbZh719rYlHFE6OwKemz3Sc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181254013183-lmjjp8r54t0hb0610fojhrkvdorjhr51.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
