@@ -1,7 +1,6 @@
-package com.dev.fnlibs.activities.AndroidNotifications.helperClasses
+package com.dev.fnlibs.AndroidNotifications.helperClasses
 
 import android.annotation.SuppressLint
-import android.app.Application
 import android.app.Notification
 import android.app.PendingIntent
 import android.content.Context
@@ -9,7 +8,7 @@ import android.content.Intent
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
 import com.dev.fnlibs.R
-import com.dev.fnlibs.activities.AndroidNotifications.activities.AndroidNotifications
+import com.dev.fnlibs.AndroidNotifications.activities.AndroidNotifications
 
 class NotificationHelper{
     companion object{

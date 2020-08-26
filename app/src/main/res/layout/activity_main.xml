@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.MainActivity">
+    tools:context=".FnLibsGlobalClasses.MainActivity">
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -30,10 +30,10 @@
                 android:layout_weight="1"/>
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/buttonNotes"
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
-                android:text="Another fn"
+                android:text="Notes (With Room DB)"
                 android:background="@drawable/button_bg"
                 android:layout_margin="5dp"
                 android:layout_weight="1"/>

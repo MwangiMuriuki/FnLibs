@@ -1,11 +1,11 @@
-package com.dev.fnlibs.activities.AndroidNotifications.activities
+package com.dev.fnlibs.AndroidNotifications.activities
 
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.dev.fnlibs.R
-import com.dev.fnlibs.activities.AndroidNotifications.dataClasses.UserDataClass
+import com.dev.fnlibs.AndroidNotifications.dataClasses.UserDataClass
 import com.google.android.gms.tasks.OnCompleteListener
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.FirebaseDatabase

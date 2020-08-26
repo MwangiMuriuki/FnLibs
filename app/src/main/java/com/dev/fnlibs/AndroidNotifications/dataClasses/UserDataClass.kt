@@ -1,4 +1,4 @@
-package com.dev.fnlibs.activities.AndroidNotifications.dataClasses
+package com.dev.fnlibs.AndroidNotifications.dataClasses
 
 data class UserDataClass (
     val email: String? = null,

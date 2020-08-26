@@ -1,4 +1,4 @@
-package com.dev.fnlibs.activities
+package com.dev.fnlibs.FnLibsGlobalClasses
 
 import android.content.Intent
 import android.os.Bundle

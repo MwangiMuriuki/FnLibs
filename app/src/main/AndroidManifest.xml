@@ -12,11 +12,14 @@
         android:roundIcon="@drawable/fnlibs_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activities.AndroidNotifications.activities.ProfileActivity"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:parentActivityName=".activities.AndroidNotifications.activities.AndroidNotifications"/>
+        <activity android:name=".NotesWithRoomDB.Activities.ActivityNotes"
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
-            android:name=".activities.SplashScreen"
+            android:name=".AndroidNotifications.activities.ProfileActivity"
+            android:parentActivityName=".AndroidNotifications.activities.AndroidNotifications"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FnLibsGlobalClasses.SplashScreen"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,18 +27,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.AndroidNotifications.activities.AndroidNotifications" />
-        <activity android:name=".activities.MainActivity" />
+        <activity android:name=".AndroidNotifications.activities.AndroidNotifications" />
+        <activity android:name=".FnLibsGlobalClasses.MainActivity" />
 
         <service
-            android:name=".activities.AndroidNotifications.helperClasses.MyFirebaseMessagingService"
+            android:name=".AndroidNotifications.helperClasses.MyFirebaseMessagingService"
             android:exported="false"
-            tools:ignore="MissingClass" >
+            tools:ignore="MissingClass">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-
     </application>
 
 </manifest>
