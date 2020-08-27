@@ -7,14 +7,20 @@
     android:layout_height="match_parent"
     tools:context=".NotesWithRoomDB.fragments.NotesHomeFragment">
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/notesRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"/>
+
 
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fabAdd"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:clickable="true"
-        android:src="@drawable/ic_save"
+        android:src="@drawable/ic_add"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:background="@color/colorAccent"

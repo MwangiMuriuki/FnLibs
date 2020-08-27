@@ -12,8 +12,7 @@
         android:roundIcon="@drawable/fnlibs_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".NotesWithRoomDB.Activities.ActivityNotes"
-            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".NotesWithRoomDB.Activities.ActivityNotes"/>
         <activity
             android:name=".AndroidNotifications.activities.ProfileActivity"
             android:parentActivityName=".AndroidNotifications.activities.AndroidNotifications"
