@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.dev.fnlibs.R
 import com.dev.fnlibs.AndroidNotifications.activities.AndroidNotifications
+import com.dev.fnlibs.Bluetooth.BluetoothActivity
 import com.dev.fnlibs.NotesWithRoomDB.Activities.ActivityNotes
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -20,6 +21,11 @@ class MainActivity : AppCompatActivity() {
 
         buttonNotes.setOnClickListener {
             val intent = Intent(applicationContext, ActivityNotes::class.java)
+            startActivity(intent)
+        }
+
+        buttonBluetooth.setOnClickListener {
+            val intent = Intent(applicationContext, BluetoothActivity::class.java)
             startActivity(intent)
         }
     }
